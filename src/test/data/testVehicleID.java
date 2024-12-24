@@ -38,4 +38,5 @@ public class testVehicleID {
     public void containsBlankSpace() {
         Assertions.assertThrows(IllegalArgumentException.class, () -> new VehicleID("AB 23"), "VehicleID can't contain blank space");
     }
+
 }
