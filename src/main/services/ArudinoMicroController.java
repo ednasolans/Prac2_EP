@@ -1,7 +1,10 @@
 package services;
+import exceptions.PMVPhisicalException;
+import exceptions.ConnectException;
+import exceptions.ProceduralException;
 
-public interface ArduinoMicroController { // Software for microcontrollers
 
+public interface ArudinoMicroController {
     public void setBTconnection ()
             throws ConnectException;
 
